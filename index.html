@@ -2,12 +2,16 @@
 <html lang="pt-BR">
 
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>PixelVault</title>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
 
-<link rel="stylesheet" href="style.css">
+<title>NexusPlay</title>
+
+<link rel="stylesheet"
+href="style.css">
 
 </head>
 
@@ -16,24 +20,48 @@
 <header>
 
 <div class="logo">
-🎮 PixelVault
+
+🎮 NexusPlay
+
 </div>
 
 <nav class="menu">
 
-<a href="#">Início</a>
-<a href="#">Jogos</a>
-<a href="#">Categorias</a>
-<a href="#">Sobre</a>
+<a href="#"
+onclick="filtrar('Todos')">
+
+Início
+
+</a>
+
+<a href="#"
+onclick="filtrar('PC')">
+
+PC
+
+</a>
+
+<a href="#"
+onclick="filtrar('APK')">
+
+APK
+
+</a>
+
+<a href="#">
+
+Sobre
+
+</a>
 
 </nav>
+
 
 <div class="pesquisa">
 
 <input
-type="text"
 id="pesquisa"
-placeholder="">
+type="text">
 
 <button>
 
@@ -46,18 +74,29 @@ placeholder="">
 </header>
 
 
+
 <section class="hero">
 
-<div class="hero-text">
+<div>
 
-<h1>Seu Portal Gamer</h1>
+<h1>
+
+Seu Portal Gamer
+
+</h1>
 
 <p>
-Jogos organizados em um só lugar.
+
+Jogos e aplicativos
+em um só lugar
+
 </p>
 
-<button onclick="explorar()">
+<button
+onclick="explorar()">
+
 Explorar
+
 </button>
 
 </div>
@@ -65,28 +104,23 @@ Explorar
 </section>
 
 
-
 <h2 class="titulo">
-Jogos Disponíveis
+
+Conteúdo
+
 </h2>
 
 
-<section class="games" id="games">
-
-<div class="vazio">
-
-<h2>Nenhum jogo adicionado</h2>
-
-<p>
-Adicione jogos pelo arquivo games.json
-</p>
-
-</div>
+<section
+id="games"
+class="games">
 
 </section>
 
 
-<script src="script.js"></script>
+<script src="script.js">
+
+</script>
 
 </body>
 
