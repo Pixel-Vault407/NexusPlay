@@ -4,15 +4,35 @@ fetch("games.json")
 
 .then(jogos => {
 
-const games = document.getElementById("games");
+const games=document.getElementById("games");
 
-if(jogos.length > 0){
+const pesquisa=document.getElementById("pesquisa");
 
-games.innerHTML = "";
+mostrarJogos(jogos);
 
-}
+pesquisa.addEventListener("input",()=>{
 
-jogos.forEach(jogo => {
+const resultado=jogos.filter(jogo=>
+
+jogo.nome.toLowerCase()
+
+.includes(
+
+pesquisa.value.toLowerCase()
+
+)
+
+);
+
+mostrarJogos(resultado);
+
+});
+
+function mostrarJogos(lista){
+
+games.innerHTML="";
+
+lista.forEach(jogo=>{
 
 games.innerHTML += `
 
@@ -25,8 +45,6 @@ games.innerHTML += `
 <h3>${jogo.nome}</h3>
 
 <p>${jogo.descricao}</p>
-
-<br>
 
 <b>Requisitos:</b>
 
@@ -46,18 +64,15 @@ games.innerHTML += `
 
 });
 
-})
-
-.catch(error => {
-
-console.log("Erro:", error);
+}
 
 });
 
 
 function explorar(){
 
-document.getElementById("games")
+document
+.getElementById("games")
 .scrollIntoView({
 
 behavior:"smooth"
