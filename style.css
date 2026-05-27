@@ -233,3 +233,82 @@ background:#151515;
 border-radius:20px;
 
 }
+
+.menu{
+
+padding:10px;
+
+border:2px solid #00d9ff;
+
+border-radius:30px;
+
+box-shadow:
+0 0 10px #00d9ff,
+0 0 20px #00d9ff;
+
+}
+
+.menu a{
+
+margin:15px;
+
+}
+
+
+.pesquisa{
+
+display:flex;
+align-items:center;
+
+background:#111;
+
+border:2px solid #ff00aa;
+
+border-radius:30px;
+
+overflow:hidden;
+
+box-shadow:
+0 0 10px #ff00aa;
+
+}
+
+.pesquisa input{
+
+background:transparent;
+
+border:none;
+
+width:0;
+
+padding:0;
+
+color:white;
+
+transition:.4s;
+
+}
+
+.pesquisa:hover input{
+
+width:180px;
+
+padding:10px;
+
+}
+
+.pesquisa button{
+
+background:none;
+
+border:none;
+
+color:white;
+
+padding:10px;
+
+font-size:20px;
+
+cursor:pointer;
+
+}
