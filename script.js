@@ -1,20 +1,18 @@
 fetch("games.json")
 
-.then(response=>response.json())
+.then(response => response.json())
 
-.then(jogos=>{
+.then(jogos => {
 
-const games=document.getElementById("games");
+const games = document.getElementById("games");
 
-if(jogos.length>0){
+if(jogos.length > 0){
 
-games.innerHTML="";
+games.innerHTML = "";
 
 }
 
-jogos.forEach(jogo=>{
-
-games.innerHTML+=`
+jogos.forEach(jogo => {
 
 games.innerHTML += `
 
@@ -45,8 +43,13 @@ games.innerHTML += `
 </div>
 
 `;
-`;
 
 });
+
+})
+
+.catch(error => {
+
+console.log("Erro:", error);
 
 });
