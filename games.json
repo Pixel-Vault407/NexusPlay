@@ -2,14 +2,16 @@
 {
 "nome":"Quake 4",
 "imagem":"imagens/quake4.jfif",
-"descricao":"Quake 4 é um FPS com ação intensa e combate futurista contra os Strogg."
-"requisitos":"Windows XP/Vista | Processador 2.0 GHz | 512MB RAM | 2GB VRAM | 5GB de espaço"
+"descricao":"Quake 4 é um FPS com ação intensa e combate futurista contra os Strogg.",
+"requisitos":"Windows XP/Vista | Processador 2.0 GHz | 512MB RAM | 2GB VRAM | 5GB de espaço",
 "link":"https://www.mediafire.com/file/kf2gi683f27usyw/Quake4.v1.4.3.rar/file"
 },
 
 {
 "nome":"Call of Duty 2003",
-"imagem":"imagens/Call of Duty 2003.jpg",
+"imagem":"imagens/callofduty2003.jpg",
+"descricao":"FPS clássico da Segunda Guerra Mundial com campanha intensa e missões históricas.",
+"requisitos":"Windows 98/XP | Pentium III 700 MHz | 128MB RAM | 1.4GB de espaço",
 "link":"https://megaup.net/12e4ed381081eaaf1da314dde07dad01/Call-of-Duty-1.rar"
 }
 ]
