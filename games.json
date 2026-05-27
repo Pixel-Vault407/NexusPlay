@@ -34,21 +34,21 @@
 },
 
 {
-"nome":"Jogo 3",
-"imagem":"imagens/jogo3.jpg",
-"descricao":"Descrição do jogo aqui.",
-"requisitos":"Windows | RAM | Espaço",
+"nome":"FlatOut 2",
+"imagem":"imagens/Flatout 2.jfif",
+"descricao":"FlatOut 2 é um jogo de corrida completamente diferente, mas muito divertido, onde vencer a qualquer custo é importante. Para isso, escolha um veículo entre os muitos disponíveis e não se limite apenas a ultrapassar seus oponentes; lute com eles em circuitos incríveis, onde qualquer elemento da pista pode ser usado para atrasar seus adversários..",
+"requisitos":"Windows 7/8/10/11 ou superior | Processador Pentium 4 a 2.0 GHz ou AMD 2000+ | RAM 256 MB",
 "plataforma":"PC",
-"link":"link-do-jogo"
+"link":"https://www.mediafire.com/file/7m736ioojt3d4oi/FlatOut.2.v26697.zip/file"
 },
 
 {
-"nome":"Jogo 4",
-"imagem":"imagens/jogo4.jpg",
-"descricao":"Descrição do jogo aqui.",
-"requisitos":"Windows | RAM | Espaço",
+"nome":"Medal of Honor: Airborne",
+"imagem":"imagens/Medal of Honor Airborne.jfif",
+"descricao":"Medal of Honor 2007 é o mais recente jogo da famosa série Medal of Honor, ambientada na Segunda Guerra Mundial. Em Airborne, o jogador assume o papel de Boyd Travers, um paraquedista da 82ª Divisão Aerotransportada..",
+"requisitos":"Windows  7/8/10 ou superior | Processador 2,8 GHz ou superior | RAM 1 GB",
 "plataforma":"PC",
-"link":"link-do-jogo"
+"link":"https://www.mediafire.com/file/xi41kyiqs3exwvf/Medal.of.Honor.Airborne.rar/file"
 },
 
 {
