@@ -53,3 +53,15 @@ games.innerHTML += `
 console.log("Erro:", error);
 
 });
+
+
+function explorar(){
+
+document.getElementById("games")
+.scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+}
