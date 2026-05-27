@@ -16,6 +16,8 @@ jogos.forEach(jogo=>{
 
 games.innerHTML+=`
 
+games.innerHTML += `
+
 <div class="card">
 
 <img src="${jogo.imagem}">
@@ -24,9 +26,17 @@ games.innerHTML+=`
 
 <h3>${jogo.nome}</h3>
 
+<p>${jogo.descricao}</p>
+
+<br>
+
+<b>Requisitos:</b>
+
+<p>${jogo.requisitos}</p>
+
 <a href="${jogo.link}" target="_blank">
 
-<button>Ver Jogo</button>
+<button>Ver jogo</button>
 
 </a>
 
@@ -34,6 +44,7 @@ games.innerHTML+=`
 
 </div>
 
+`;
 `;
 
 });
