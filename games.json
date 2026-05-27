@@ -13,5 +13,95 @@
 "descricao":"FPS clássico da Segunda Guerra Mundial com campanha intensa e missões históricas.",
 "requisitos":"Windows 98/XP | Pentium III 700 MHz | 128MB RAM | 1.4GB de espaço",
 "link":"https://megaup.net/12e4ed381081eaaf1da314dde07dad01/Call-of-Duty-1.rar"
+},
+
+{
+"nome":"Jogo 1",
+"imagem":"imagens/jogo1.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 2",
+"imagem":"imagens/jogo2.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 3",
+"imagem":"imagens/jogo3.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 4",
+"imagem":"imagens/jogo4.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 5",
+"imagem":"imagens/jogo5.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 6",
+"imagem":"imagens/jogo6.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 7",
+"imagem":"imagens/jogo7.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 8",
+"imagem":"imagens/jogo8.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 9",
+"imagem":"imagens/jogo9.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
+},
+
+{
+"nome":"Jogo 10",
+"imagem":"imagens/jogo10.jpg",
+"descricao":"Descrição do jogo aqui.",
+"requisitos":"Windows | RAM | Espaço",
+"plataforma":"PC",
+"link":"link-do-jogo"
 }
 ]
