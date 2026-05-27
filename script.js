@@ -1,40 +1,73 @@
+let jogos=[];
+
 fetch("games.json")
 
-.then(response => response.json())
+.then(response=>
+response.json())
 
-.then(jogos => {
+.then(data=>{
 
-const games=document.getElementById("games");
-
-const pesquisa=document.getElementById("pesquisa");
+jogos=data;
 
 mostrarJogos(jogos);
 
-pesquisa.addEventListener("input",()=>{
+const pesquisa=
 
-const resultado=jogos.filter(jogo=>
+document.getElementById(
+"pesquisa"
+);
 
-jogo.nome.toLowerCase()
+pesquisa.addEventListener(
+
+"input",
+
+()=>{
+
+const resultado=
+
+jogos.filter(
+
+jogo=>
+
+jogo.nome
+.toLowerCase()
 
 .includes(
 
-pesquisa.value.toLowerCase()
+pesquisa.value
+.toLowerCase()
 
 )
 
 );
 
-mostrarJogos(resultado);
+mostrarJogos(
+resultado
+);
+
+}
+
+);
 
 });
 
+
+
 function mostrarJogos(lista){
+
+const games=
+
+document
+.getElementById(
+"games"
+);
 
 games.innerHTML="";
 
+
 lista.forEach(jogo=>{
 
-games.innerHTML += `
+games.innerHTML+=`
 
 <div class="card">
 
@@ -42,17 +75,39 @@ games.innerHTML += `
 
 <div class="info">
 
-<h3>${jogo.nome}</h3>
+<h3>
 
-<p>${jogo.descricao}</p>
+${jogo.nome}
 
-<b>Requisitos:</b>
+</h3>
 
-<p>${jogo.requisitos}</p>
+<p>
 
-<a href="${jogo.link}" target="_blank">
+${jogo.descricao}
 
-<button>Ver jogo</button>
+</p>
+
+<b>
+
+Requisitos:
+
+</b>
+
+<p>
+
+${jogo.requisitos}
+
+</p>
+
+<a href=
+"${jogo.link}"
+target="_blank">
+
+<button>
+
+Ver
+
+</button>
 
 </a>
 
@@ -66,13 +121,41 @@ games.innerHTML += `
 
 }
 
-});
+
+
+function filtrar(tipo){
+
+if(tipo==="Todos"){
+
+mostrarJogos(jogos);
+
+return;
+
+}
+
+const resultado=
+
+jogos.filter(
+
+jogo=>
+
+jogo.plataforma===tipo
+
+);
+
+mostrarJogos(
+resultado
+);
+
+}
 
 
 function explorar(){
 
 document
-.getElementById("games")
+.getElementById(
+"games")
+
 .scrollIntoView({
 
 behavior:"smooth"
