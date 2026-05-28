@@ -100,7 +100,7 @@ ${jogo.requisitos}
 </p>
 
 <a href=
-"${jogo.link}"
+"${jogo.pagina}"
 target="_blank">
 
 <button>
