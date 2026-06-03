@@ -1,55 +1,55 @@
 [
 {
 "nome":"Quake 4",
-"imagem":"imagens/quake4.jfif",
+"imagem":"imagens/Quake 4.jfif",
 "descricao":"Quake 4 é um FPS com ação intensa e combate futurista contra os Strogg.",
 "requisitos":"Windows XP/Vista | Processador 2.0 GHz | 512MB RAM | 2GB VRAM | 5GB espaço",
 "plataforma":"PC",
-"pagina":"jogos/quake4.html"
+"pagina":"jogos/https://www.mediafire.com/file/kf2gi683f27usyw/Quake4.v1.4.3.rar/file"
 },
 
 {
 "nome":"Call of Duty 2003",
-"imagem":"imagens/callofduty2003.jpg",
+"imagem":"imagens/Call of Duty 2003.jpg",
 "descricao":"FPS clássico da Segunda Guerra Mundial com campanha intensa e missões históricas.",
 "requisitos":"Windows 98/XP | Pentium III 700 MHz | 128MB RAM | 1.4GB espaço",
 "plataforma":"PC",
-"pagina":"jogos/cod1.html"
+"pagina":"jogos/https://megaup.net/12e4ed381081eaaf1da314dde07dad01/Call-of-Duty-1.rar"
 },
 
 {
 "nome":"Brothers: A Tale of Two Sons",
-"imagem":"imagens/brothers.png",
+"imagem":"imagens/Brothers.PNG",
 "descricao":"Dois irmãos embarcam em uma jornada emocionante para salvar o pai.",
 "requisitos":"Windows 7/8/10/11 | Dual Core 2.4 GHz | 2GB RAM",
 "plataforma":"PC",
-"pagina":"jogos/brothers.html"
+"pagina":"jogos/https://www.mediafire.com/file/0o2jwlj4nnnebbb/BAOTS2013.rar/file"
 },
 
 {
-"nome":"Euro Truck Simulator 2",
-"imagem":"imagens/ets2.jfif",
+"nome":"Euro Truck Simulator 2 [PC] [INCL. DLC]",
+"imagem":"imagens/Euro Truck Simulator 2.jfif",
 "descricao":"Simulador de caminhão realista com mapas enormes e dezenas de cargas.",
 "requisitos":"Windows 7/8/10/11 | Dual Core | 4GB RAM",
 "plataforma":"PC",
-"pagina":"jogos/ets2.html"
+"pagina":"jogos/https://www.mediafire.com/file/01vlim4y4a48mkz/Euro.Truck.Simulator.2.rar/file"
 },
 
 {
-"nome":"FlatOut 2",
-"imagem":"imagens/flatout2.jfif",
+"nome":"FlatOut 2 PC Game [Full] [GOG]",
+"imagem":"imagens/Flatout 2.jfif",
 "descricao":"Corridas insanas com destruição e combate entre carros.",
 "requisitos":"Pentium 4 2GHz | 256MB RAM",
 "plataforma":"PC",
-"pagina":"jogos/flatout2.html"
+"pagina":"jogos/https://www.mediafire.com/file/7m736ioojt3d4oi/FlatOut.2.v26697.zip/file"
 },
 
 {
-"nome":"Medal of Honor Airborne",
-"imagem":"imagens/mohairborne.jfif",
+"nome":"Medal of Honor: Airborne",
+"imagem":"imagens/Medal of Honor Airborne.jfif",
 "descricao":"FPS da Segunda Guerra focado em batalhas aéreas e paraquedistas.",
 "requisitos":"Windows 7/8/10 | 1GB RAM",
 "plataforma":"PC",
-"pagina":"jogos/mohairborne.html"
+"pagina":"jogos/https://www.mediafire.com/file/xi41kyiqs3exwvf/Medal.of.Honor.Airborne.rar/file"
 }
 ]
